@@ -57,8 +57,7 @@ class TestMutex {
 		FileUpdater fu2 = new FileUpdater(p2, getPeerMessage(activepeers, p2.getNodeName()), newupdate.getBytes(), activepeers);
 		FileUpdater fu4 = new FileUpdater(p4, getPeerMessage(activepeers, p4.getNodeName()), newupdate.getBytes(), activepeers);
 		FileUpdater fu5 = new FileUpdater(p5, getPeerMessage(activepeers, p5.getNodeName()), newupdate.getBytes(), activepeers);
-		
-		
+				
 		fu1.start();
 		fu2.start();
 		fu4.start();
